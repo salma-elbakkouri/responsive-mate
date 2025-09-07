@@ -1,0 +1,49 @@
+{
+  "name": "responsiveness-engine-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "responsiveness-engine-frontend",
+  "author": "Alae-J",
+  "keywords": [
+    "gatsby"
+  ],
+  "engines": {
+    "node": ">=16.0.0 <=18.x"
+  },
+  "scripts": {
+    "develop": "(nvm use 2>/dev/null || true) && gatsby develop",
+    "start": "(nvm use 2>/dev/null || true) && gatsby develop",
+    "build": "(nvm use 2>/dev/null || true) && gatsby build",
+    "serve": "(nvm use 2>/dev/null || true) && gatsby serve",
+    "clean": "(nvm use 2>/dev/null || true) && gatsby clean",
+    "typecheck": "(nvm use 2>/dev/null || true) && tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@fontsource/roboto": "^5.2.6",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "axios": "^1.11.0",
+    "file-saver": "^2.0.5",
+    "gatsby": "^5.14.6",
+    "gatsby-plugin-emotion": "^8.15.0",
+    "gatsby-plugin-typescript": "^5.15.0",
+    "jszip": "^3.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.8.1",
+    "url-parse": "^1.5.10",
+    "validator": "^13.15.15",
+    "ws": "^8.18.3",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@types/validator": "^13.15.3",
+    "typescript": "^5.9.2"
+  }
+}
